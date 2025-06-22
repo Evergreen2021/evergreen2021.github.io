@@ -1,6 +1,7 @@
 let installPrompt = null;
 const installButton = document.querySelector("#install");
 val x = prompt("Hello world!", "huhh");
+alert(x)
 
 window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
@@ -10,7 +11,7 @@ window.addEventListener("beforeinstallprompt", (event) => {
  alert(`Hello! I am an alert box!! ${result.outcome}`);
   installButton.removeAttribute("hidden");
 });
-/*
+
 installButton.addEventListener("click", async () => {
   if (!installPrompt) {
     return;
@@ -23,4 +24,4 @@ installButton.addEventListener("click", async () => {
 function disableInAppInstallPrompt() {
   installPrompt = null;
   installButton.setAttribute("hidden", "");
-}*/
+}

@@ -19,3 +19,8 @@
 .install-button:hover {
     background-color: #45a049; /* Darker green on hover */
 }
+
+.video {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+}

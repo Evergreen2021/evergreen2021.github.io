@@ -5,7 +5,7 @@ alert("Hello world!");
 window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
   installPrompt = event;
- alert("Hello! I am an alert box!!");
+ alert("Hello! I am an alert box!!" + installPrompt);
   installButton.removeAttribute("hidden");
 });
 

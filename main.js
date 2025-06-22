@@ -4,7 +4,7 @@ alert("Hello world!");
 
 window.addEventListener("beforeinstallprompt", (event) => {
   if(!installButton) {
-    alert("No install button")
+    alert("No install button");
   }
   event.preventDefault();
   installPrompt = event;

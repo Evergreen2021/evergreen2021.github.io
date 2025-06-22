@@ -41,6 +41,7 @@ nfcButton.addEventListener("click", async () => {
                 console.error("Error starting NFC scan:", error);
             });
     } else {
+        document.getElementById('text').value = "NFC not supported";
         console.log("NFC is not supported on this device.");
     }
 });

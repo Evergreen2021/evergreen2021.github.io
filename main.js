@@ -1,8 +1,7 @@
-// main.js
-
 let installPrompt = null;
 const installButton = document.querySelector("#install");
 alert("Hello world!");
+
 window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
   installPrompt = event;

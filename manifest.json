@@ -4,13 +4,13 @@
   "description": "A_DESCRIPTION",
   "icons": [
     {
-      "src": "/icons/waist.svg",
-      "type": "image/svg",
+      "src": "/icons/butt512.png",
+      "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "/icons/waist.svg",
-      "type": "image/svg",
+      "src": "/icons/butt192.png",
+      "type": "image/png",
       "sizes": "192x192"
     }
   ],

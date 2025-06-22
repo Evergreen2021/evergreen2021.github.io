@@ -12,6 +12,8 @@
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s; /* Smooth transition for hover effect */
     float: right;
+    width: 33%;
+    height: 10%
 }
 
 .install-button:hover {

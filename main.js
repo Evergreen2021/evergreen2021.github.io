@@ -6,6 +6,7 @@ const installButton = document.querySelector("#install");
 window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
   installPrompt = event;
+ alert("Hello! I am an alert box!!");
   installButton.removeAttribute("hidden");
 });
 

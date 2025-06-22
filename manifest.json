@@ -12,6 +12,11 @@
       "src": "/icons/butt192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "/icons/butt144.png",
+      "type": "image/png",
+      "sizes": "144x144"
     }
   ],
   "start_url": "https://evergreen2021.github.io/",

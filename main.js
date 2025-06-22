@@ -1,3 +1,4 @@
+alert("hoi");
 let installPrompt = null;
 const installButton = document.querySelector("#install");
 alert("Hello world!");
@@ -6,8 +7,6 @@ window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
   installPrompt = event;
   alert("Hello again");
-  const result = await installPrompt.prompt();
- alert(`Hello! I am an alert box!! ${result.outcome}`);
   installButton.removeAttribute("hidden");
 });
 

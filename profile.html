@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.json" />
+    <meta charset="UTF-8">
+    <title>My PWA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="script/profile.js"></script>
+</head>
+<body>
+<div class="center parent">
+    <p class="center">
+        Nickname
+    </p>
+    <p class="center">
+        <label>
+            <input id="nicknameinput" type="text">
+        </label>
+    </p>
+    <p class="center">
+        Gender
+    </p>
+    <p class="center">
+        <input type="checkbox" id="gendercheckbox" class="checkbox center" value="Im">
+        <label for="gendercheckbox" class="gender-checkbox-label center">
+            <img src="icons/male-blue.svg" alt="Checkbox Icon" class="iconn center" width="50" height="50" /> <!-- This can be an icon from a library or an image -->
+        </label>
+    </p>
+    <p class="center">
+        I want to interact with
+    </p>
+    <p class="center">
+        <input type="checkbox" id="malecheckbox" class="checkbox">
+        <label for="malecheckbox" class="male-checkbox-label">
+            <img src="icons/male-grey.svg" alt="Checkbox Icon" class="iconn" width="50" height="50" /> <!-- This can be an icon from a library or an image -->
+        </label>
+        <input type="checkbox" id="femalecheckbox" class="checkbox">
+        <label for="femalecheckbox" class="female-checkbox-label">
+            <img src="icons/female-grey.svg" alt="Checkbox Icon" class="iconn" width="50" height="50" /> <!-- This can be an icon from a library or an image -->
+        </label>
+    </p>
+    <p>
+        <button onclick="save(document.querySelector('#nicknameinput').value, document.querySelector('#gender').value)">Save</button>
+    </p>
+    <p>
+        <button onclick="getData()">Show data</button>
+    </p>
+</div>
+</body>
+</html>

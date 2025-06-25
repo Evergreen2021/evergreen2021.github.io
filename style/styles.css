@@ -43,3 +43,61 @@
     width: 50vw
     height: 20vw
 }
+
+.checkbox {
+    display: none; /* Hide the default checkbox */
+}
+
+.checkbox-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 20px; /* Adjust icon size */
+}
+
+/* Optional: Style for checked state */
+.checkbox:checked + .female-checkbox-label .iconn {
+    content: url('/icons/female-pink.svg'); /* Change image when checked */
+}
+
+.checkbox:checked + .male-checkbox-label .iconn {
+    content: url('/icons/male-blue.svg'); /* Change image when checked */
+}
+
+.checkbox:checked + .gender-checkbox-label .iconn {
+    content: url('/icons/female-pink.svg'); /* Change image when checked */
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+}
+
+.parent {
+    text-align: center; /* Centers inline elements */
+    /* display: flex;*/
+    justify-content: center; /* Centers horizontally */
+}
+
+@font-face {
+    font-family: 'MyIlona';
+    src: url('MyIlona.otf') format('opentype'),
+    font-weight: normal; /* or bold */
+    font-style: normal; /* or italic */
+}
+
+body {
+    font-family: 'MyIlona', sans-serif;
+}
+
+input {
+            font-family: 'MyIlona', sans-serif; /* Apply the custom font to the input box */
+            font-size: 16px; /* Adjust font size as needed */
+            padding: 10px; /* Add some padding for better appearance */
+            border: 1px solid #ccc; /* Add a border */
+            border-radius: 4px; /* Rounded corners */
+        }
